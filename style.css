@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  background: #f3f5f4;
+  color: #203630;
+  font: 14pt/1.45 "Times New Roman", serif;
+}
+.report {
+  max-width: 46rem;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+.summary-card, .result-item {
+  background: white;
+  border: 1px solid #c8d6d0;
+  padding: .55rem 1rem;
+  margin: .4rem 0;
+}
+.summary-card { border-left: 4px solid #35745d; }
+.result-list { list-style: none; padding: 0; }
+.result-name { display: inline-block; min-width: 5rem; font-weight: bold; }
+select, button { font: inherit; padding: .2rem .45rem; }
+button { background: #285844; color: white; border: 1px solid #285844; cursor: pointer; }
